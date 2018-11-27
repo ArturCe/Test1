@@ -3,11 +3,11 @@
 <suite name="Wszystkie testy">
     <test name="zestaw testów nr 1">
         <classes>
-            <class name="MainTest"/>
             <class name="ReaderTest"/>
             <class name="RowTest"/>
             <class name="FixerTest"/>
             <class name="WriterTest"/>
+            <class name="MainTest"/>
         </classes>
     </test>
 </suite>

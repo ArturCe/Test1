@@ -15,8 +15,6 @@ public class Fixer {
         if (columnIndex != DEFAULT_VALUE && columnIndex <= array.length - 1) {
             row.getLineParts()[columnIndex] = newValue;
         }
-        System.out.println("index = " + columnIndex);
-        System.out.println("length = " + array.length);
     }
 
     public static void resetColumnIndex() {

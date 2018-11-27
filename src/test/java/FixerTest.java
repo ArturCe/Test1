@@ -1,4 +1,5 @@
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
@@ -7,9 +8,9 @@ public class FixerTest {
 
     private static String sep;
 
-    @AfterMethod
+    @BeforeMethod
     public void resetIndex() {
-        sep = "    ";
+        sep = "\t";
         Fixer.resetColumnIndex();
     }
 
